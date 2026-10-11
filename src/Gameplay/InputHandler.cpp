@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../../header/InputHandler/InputHandler.hpp"
+#include "../../header/Gameplay/InputHandler.hpp"
 
 string_view validateInput(string_view input, int limit, vector<string_view> allowedInput) {
     if(input.size() > limit) {
