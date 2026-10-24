@@ -18,8 +18,6 @@ Story *readScript() {
         }
 
         script.close();
-        return story;
-
-        
+        return story;     
     }
 }
