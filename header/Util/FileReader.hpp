@@ -1,6 +1,6 @@
 #pragma once
 #include "../Gameplay/Story.hpp"
 
-Story *readScript();
+void readScript(Story *story, const char* file);
 
 
