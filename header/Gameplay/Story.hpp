@@ -8,9 +8,11 @@ using string_view = std::string_view;
 class Story {
     private:
         int act;
+        int currentLocation;
         string content;
     
     public:
+        Story();
         string getContent();
-        void setContent(std::string content);
+        void setContent(string &content);
 };
